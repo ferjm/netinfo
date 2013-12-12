@@ -216,6 +216,7 @@ From the apps we've looked at, the main cases appear to be:
 * Give the user control as to whether large uploads/downloads should happen over cellular (mostly related to synchronizing media data like photos, videos, and audio files).
 * Prevent accidental data transfer over cellular, which could use up the user's data transfer quota and/or cost them money. 
 * Advise the user to activate WiFi to improve location accuracy.
+* Allow apps to know the best moment to prefetch resources (most likely over WiFi).
 
 ## Requirements
 In order to be able to replicate the functionality seen in native applications, the web platform needs to:
